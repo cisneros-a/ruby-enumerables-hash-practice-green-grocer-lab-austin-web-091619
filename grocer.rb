@@ -58,5 +58,4 @@ def checkout(complete, coupons)
         total += cart_w_clearance[item][:price] * cart_w_clearance[item][:count]
     end
     total > 100.00? (total * 0.9). round : total
-    p "Your total is #{total}."
 end 
